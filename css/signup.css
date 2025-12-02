@@ -64,3 +64,51 @@ body {
     color: #60ffe9;
     margin-bottom: 30px;
 }
+
+.form label {
+    font-size: 14px;
+    margin: 8px 0 4px;
+}
+
+.form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    background: transparent;
+    border: 1px solid #4a5f7a;
+    color: white;
+    border-radius: 4px;
+}
+
+.form input::placeholder {
+    color: #b5c0cc;
+}
+
+.btn {
+    width: 100%;
+    padding: 12px;
+    background: #12e0c8;
+    color: #1c2a3e;
+    border: none;
+    font-size: 16px;
+    border-radius: 4px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: #0dc7b2;
+}
+
+
+@media (max-width: 900px) {
+    .container {
+        flex-direction: column;
+        height: auto;
+    }
+    .left-box, .right-box {
+        width: 100%;
+        height: auto;
+    }
+}
