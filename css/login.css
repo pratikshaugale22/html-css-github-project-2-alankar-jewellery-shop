@@ -4,12 +4,39 @@
     box-sizing: border-box;
 }
 
-body{
+body
+    {
        background-color:rgb(255, 255, 255);
      }
-            .parent{
+     
+     .parent{
                 
-                height: 400px;
-                width:300px;
-                border: solid 2px black;
-            }
+        height: 400px;
+        width:300px;
+        border: solid 2px black;
+    }
+
+.parent{
+    background-color:white;
+    height:440px;
+    width: 280px;
+    justify-content: center;
+    margin-left: 400px;
+    margin-top:40px;
+
+    padding-bottom: 10px;
+    display: flex;
+    border-radius: 10px;
+    border: none;
+    padding-top: none;
+    box-shadow: 17px 17px 2px rgb(83, 26, 83);
+    }
+    .btn{
+    padding:8px 82px;
+    border-radius: 50px;
+    margin-top: 10px;
+    margin-bottom:none;
+    background-color: rgb(107, 29, 107);
+    text-align: center;
+    box-shadow: 3px 5px 2px black;
+    }
