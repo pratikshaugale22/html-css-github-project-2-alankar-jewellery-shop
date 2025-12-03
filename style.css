@@ -84,7 +84,7 @@ body {
 }
 
 .right-links a:hover {
-    color: gold;
+    color: darkorange;
 }
 
 .banner-logo {
@@ -105,7 +105,7 @@ body {
 
 .products-container {
     display: flex;
-    justify-content: center;
+    justify-content:center;
     gap: 40px;
     flex-wrap: wrap;
 }
@@ -117,7 +117,7 @@ body {
     border-radius: 12px;
     text-align: center;
     box-shadow: 0px 0px 5px 1px #525151;
-    transition: 0.3s;
+    transition: 0.3s;;
 }
 
 .product-card img {
@@ -240,7 +240,7 @@ footer {
 }
 
 .footer-contact a:hover {
-    color: gold;
+    color:darkorange;
 }
 
 .social-icon {
@@ -324,9 +324,6 @@ footer {
         font-size: 18px;
     }
 
-    footer {
-        text-align: center;
-    }
 }
 
 @media (max-width: 600px) {
