@@ -172,13 +172,11 @@ body {
     list-style-type: none;
     padding-left: 0;
 }
-
 .mission-vision ul li {
     margin-bottom: 10px;
     padding-left: 20px;
     position: relative;
 }
-
 /* Add a subtle icon/bullet point */
 .mission-vision ul li::before {
     content: '💎';
@@ -187,12 +185,10 @@ body {
     top: 0;
     color: #bcaaa4;
 }
-
 /* card scc*/
 .banner-class {
     position: relative;
 }
-
 .slide-img {
     height: 200px;
     width: 300px;
